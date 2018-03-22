@@ -26,7 +26,7 @@ $(document).ready(function () {
 
      $(document).on("click", ".remove", function() {
 
-    	$(this).parent().toggleClass("completed");
+    	$(this).parent().remove();
     });
 
 });
